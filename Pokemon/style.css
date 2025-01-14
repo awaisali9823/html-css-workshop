@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* margin: 0;
+  padding: 0;
+  box-sizing: border-box; */
+}
+body {
+  background-color: #272727;
+  font-family: sans-serif;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+nav {
+  background-color: #363333;
+  position: fixed;
+  width: 100vw;
+  padding: 20px 40px 20px 100px;
+  margin-bottom: 200px;
+  z-index: 999;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#icon-img {
+  height: 60px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.profile p {
+  color: white;
+  font-size: 20px;
+}
+.login {
+  position: absolute;
+  width: 115px;
+  height: 30px;
+  color: #fff;
+  font-size: 20px;
+  right: 25px;
+  top: 85px;
+  border-radius: 50px;
+  background-color: #daa520;
+  border: transparent;
+}
+.login:hover {
+  transition: ease 1s;
+  transform: scale(1.2);
+}
+
+/* Container Part */
+
+.part-1 {
+  height: 300px;
+  width: 1000px;
+  background-color: #664141;
+  margin: 0 200px;
+  border-radius: 10px;
+}
+.nav-1 {
+  background-color: #7b5a05;
+  height: 50px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+  justify-content: space-between;
+  color: white;
+}
+hr {
+  width: 30%;
+  color: #ebe6e6;
+}
+#right-arrow {
+  rotate: 180deg;
+}
+h1 {
+  font-weight: 100;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.cards {
+  display: flex;
+  padding: 50px 90px;
+  align-items: center;
+  gap: 20px;
+  overflow: auto;
+}
+.cards::-webkit-scrollbar {
+  display: none;
+}
+.card1 {
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  position: relative;
+}
+.card {
+  width: 120px;
+  height: 130px;
+  background-color: #ebe6e6;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.card-img {
+  height: 90px;
+  margin-top: 30px;
+}
+.eye-image {
+  position: absolute;
+  height: 20px;
+  width: 35px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #8ed1f8;
+  top: 15px;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3px;
+  font-size: 8px;
+}
+.eye-vector {
+  height: auto;
+  width: 12px;
+}
+
+.part-2 {
+  height: 300px;
+  width: 1000px;
+  background-color: #7e6933;
+  margin: 50px 200px;
+  border-radius: 10px;
+}
+.part-3 {
+  height: 300px;
+  width: 1000px;
+  background-color: #3d4b5c;
+  margin: 0 200px 50px 200px;
+  border-radius: 10px;
+}
